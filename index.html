@@ -34,8 +34,8 @@
         #sistema-auditoria { display: none; }
         header { background: var(--azul); color: var(--white); padding: 15px; text-align: center; border-bottom: 4px solid var(--ouro); }
         .tabs { display: flex; background: #000000; position: sticky; top: 0; z-index: 1000; overflow-x: auto; }
-        .tab-btn { flex: 1; min-width: 60px; padding: 14px 6px; border: none; background: none; font-family: 'Syne'; font-weight: 700; color: #ffffff; cursor: pointer; text-transform: uppercase; font-size: 10px; letter-spacing: 0.5px; white-space: nowrap; }
-        .tab-btn.active { color: var(--ouro); border-bottom: 4px solid var(--ouro); background: #1a1a1a; }
+        .tab-btn { flex: 1; min-width: 52px; padding: 12px 4px; border: none; background: none; font-family: 'Syne'; font-weight: 700; color: #ffffff; cursor: pointer; text-transform: uppercase; font-size: 9px; letter-spacing: 0.3px; white-space: nowrap; }
+        .tab-btn.active { color: var(--ouro); border-bottom: 3px solid var(--ouro); background: #1a1a1a; }
         .tab-content { display: none; padding: 20px; animation: fadeIn 0.4s ease; }
         .tab-content.active { display: block; }
 
@@ -224,8 +224,8 @@
     <div class="tabs">
         <button class="tab-btn active" id="tab-btn-radar" onclick="mudarAba('radar', this)">RADAR</button>
         <button class="tab-btn" id="tab-btn-alertas" onclick="mudarAba('alertas', this)">ALERTAS</button>
-        <button class="tab-btn" id="tab-btn-invest" onclick="mudarAba('investimento', this)">INVESTIMENTO</button>
-        <button class="tab-btn" id="tab-btn-licitacoes" onclick="mudarAba('licitacoes', this)">LICITAÇÕES</button>
+        <button class="tab-btn" id="tab-btn-invest" onclick="mudarAba('investimento', this)">INVEST.</button>
+        <button class="tab-btn" id="tab-btn-licitacoes" onclick="mudarAba('licitacoes', this)">LICIT.</button>
         <button class="tab-btn" id="tab-btn-ranking" onclick="mudarAba('ranking', this)">RANKING</button>
     </div>
 
