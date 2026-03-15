@@ -135,8 +135,8 @@
         .acao-btn .acao-desc { font-family: 'DM Mono'; font-size: 10px; color: var(--muted); line-height: 1.4; }
         .acao-resultado { background: #f5f2ec; border: 1px solid var(--cinza2); border-radius: 10px; padding: 14px; font-family: 'Barlow'; font-size: 12px; color: var(--accent); line-height: 1.7; margin-bottom: 12px; display: none; white-space: pre-wrap; }
         .acao-resultado.visible { display: block; }
-        .btn-copiar { background: var(--azul); color: white; border: none; padding: 8px 18px; font-family: 'Syne'; font-size: 11px; font-weight: 700; cursor: pointer; border-radius: 6px; display: none; }
-        .btn-copiar.visible { display: inline-block; }
+        .btn-copiar { background: var(--azul); color: white; border: none; padding: 8px 18px; font-family: 'Syne'; font-size: 11px; font-weight: 700; cursor: pointer; border-radius: 6px; display: none; flex: 1; }
+        .btn-copiar.visible { display: block; }
         .validacao-aviso { display:none; margin-top:12px; background:#f0f7ff; border:1px solid #b3d4f5; border-left:3px solid #1a6fc4; border-radius:8px; padding:12px 14px; font-family:'DM Mono'; font-size:11px; color:#1a3a5c; line-height:1.6; }
         .validacao-aviso.visible { display:block; }
         .validacao-aviso strong { color:#1a6fc4; }
@@ -362,7 +362,10 @@
         </div>
 
         <div class="acao-resultado" id="acao-resultado"></div>
-        <button class="btn-copiar" id="btn-copiar" onclick="copiarAcao()">📋 Copiar texto</button>
+        <div style="display:flex; gap:10px; margin-top:0;">
+            <button class="btn-copiar" id="btn-copiar" onclick="copiarAcao()">📋 Copiar texto</button>
+            <button class="btn-fechar-sintese" style="margin-top:0; flex:1;" onclick="fecharSintese()">Fechar</button>
+        </div>
 
         <div class="validacao-aviso" id="validacao-aviso">
             🔍 <strong>Antes de enviar, valide as informações.</strong><br>
@@ -394,7 +397,7 @@
             </button>
         </div>
 
-        <button class="btn-fechar-sintese" onclick="fecharSintese()">Fechar</button>
+        <button class="btn-fechar-sintese" style="margin-top:10px;" onclick="fecharSintese()">Fechar</button>
     </div>
 </div>
 
@@ -849,4 +852,4 @@
     }
 </script>
 </body>
-    </html>
+</html>
