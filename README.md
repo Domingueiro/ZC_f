@@ -16,7 +16,7 @@ O projeto foca na **Margem de Transformação Local**. Mostramos quanto sobra pa
 O Zelador monitora prazos de licitações (ex: manutenção de semáforos). Ao alertar sobre contratos prestes a vencer, a ferramenta previne a criação de "emergências fabricadas" que justificam dispensas de licitação e encarecem o custo público.
 
 ### 3. A Lente da Verdade (Emendas Parlamentares)
-Rastreamento de emendas que passam pelo sistema municipal. O app identifica os "doadores" (vereadores) e os "receptores", trazendo luz sobre o uso do dinheiro público e a influência política local.
+Rastreamento de emendas que passam pelo sistema municipal. O app identifica os "doadores" (vereadores) e os "receptores", trazendo luz sobre o uso do dinheiro público e a influência política local. Consegue cruzar informações mostrando, caso exista, o direcionamento de diversas emendas a uma mesma instituição.
 
 ### 4. Acionamento Direto de Órgãos de Controle
 A ferramenta permite que grupos de munícipes, baseados em evidências geradas pela IA, acionem diretamente o **Tribunal de Contas do Município (TCM)** e o **Ministério Público (MP)** para contestar inconsistências ou prioridades de obras.
